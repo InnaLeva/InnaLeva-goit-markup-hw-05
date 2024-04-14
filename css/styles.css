@@ -642,7 +642,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     align-items: center;
     justify-content: center;
     border: 1px solid rgba(0, 0, 0, 0.1);
- 
+    padding: 0;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -682,6 +682,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 8px;
 }
 
+
 .modal-input-wrap {
     position: relative;
 }
@@ -693,7 +694,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     height: 40px;
     background-color: transparent;
     outline: transparent;
-    padding-left: 50px;
+    padding-left: 38px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -711,6 +712,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-size: 12px;
     letter-spacing: 0.04em;
     color: #8e8f99;
+    line-height: 1.17
 }
 
 .modal-input-icon {
@@ -719,6 +721,10 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     top: 50%;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.wrap-textarea {
+    margin-bottom: 16px;
 }
 
 .textarea {
@@ -752,6 +758,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .checkbox-wrap {
     display: flex;
+    margin-bottom: 24px;
 }
 
 .checkbox-label {
@@ -807,4 +814,5 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #fff;
     display: block;
     margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
