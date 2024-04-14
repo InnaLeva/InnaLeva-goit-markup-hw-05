@@ -615,7 +615,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .modal {
     width: 408px;
-    height: 584px;
+    min-height: 584px;
     border-radius: 4px;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     background: #fcfcfc;
@@ -632,7 +632,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: absolute;
     width: 24px;
     height: 24px;
-    border-radius: 100%;
+    border-radius: 50%;
     background-color: #e7e9fc;
     top: 24px;
     right: 24px;
@@ -679,7 +679,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-wrap {
-    margin-bottom: 4px;
+    margin-bottom: 8px;
 }
 
 .modal-input-wrap {
